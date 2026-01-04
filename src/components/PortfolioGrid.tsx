@@ -11,22 +11,32 @@ interface BrandSection {
 }
 const SUPABASE_URL = "https://kwwjdqbsxzbydejfmhnv.supabase.co";
 
-const brandSections: BrandSection[] = [{
-  brand: "CLARESA",
-  items: [{
-    id: 1,
-    src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa01.tusz.png`,
-    alt: "Claresa Tusz 1"
-  }, {
-    id: 2,
-    src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa02.tusz.png`,
-    alt: "Claresa Tusz 2"
-  }, {
-    id: 3,
-    src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa01.pomadka.png`,
-    alt: "Claresa Pomadka"
-  }]
-}];
+const brandSections: BrandSection[] = [
+  {
+    brand: "CLARESA",
+    items: [
+      { id: 1, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa01.tusz.png`, alt: "Claresa Tusz 1" },
+      { id: 2, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa02.tusz.png`, alt: "Claresa Tusz 2" },
+      { id: 3, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa03.tusz.png`, alt: "Claresa Tusz 3" },
+      { id: 4, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa00.pomadka.png`, alt: "Claresa Pomadka 1" },
+      { id: 5, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa04.pomadka.png`, alt: "Claresa Pomadka 2" },
+    ]
+  },
+  {
+    brand: "YOLYN",
+    items: [
+      { id: 6, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_03LOGO.png`, alt: "Yolyn 1" },
+      { id: 7, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_04.png`, alt: "Yolyn 2" },
+      { id: 8, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_07.png`, alt: "Yolyn 3" },
+      { id: 9, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_08.png`, alt: "Yolyn 4" },
+      { id: 10, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_10.png`, alt: "Yolyn 5" },
+      { id: 11, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_12.png`, alt: "Yolyn 6" },
+      { id: 12, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_15.png`, alt: "Yolyn 7" },
+      { id: 13, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_17.png`, alt: "Yolyn 8" },
+      { id: 14, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_20.png`, alt: "Yolyn 9" },
+    ]
+  }
+];
 const PortfolioGrid = () => {
   const [selectedImage, setSelectedImage] = useState<PortfolioItem | null>(null);
   return <>
