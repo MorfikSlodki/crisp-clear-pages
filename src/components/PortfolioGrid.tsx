@@ -85,7 +85,7 @@ const PortfolioGrid = () => {
             <h2 className="font-display text-2xl md:text-3xl tracking-wider text-center mb-8 opacity-0 animate-fade-in-up">
               {section.brand}
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               {section.items.map((item, index) => {
                 const isAboveFold = sectionIndex === 0 && index < 2;
                 return (
