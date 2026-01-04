@@ -54,7 +54,7 @@ const PortfolioGrid = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {section.items.map((item, index) => <div key={item.id} className={`portfolio-image opacity-0 animate-fade-in-up stagger-${sectionIndex * 2 + index + 1}`} onClick={() => setSelectedImage(item)}>
                   <div className="aspect-[4/5] overflow-hidden">
-                    <img src={item.src} alt={item.alt} loading="lazy" className="w-full h-full object-scale-down" />
+                    <img src={item.src} alt={item.alt} loading="lazy" className="w-full h-full object-contain" />
                   </div>
                 </div>)}
             </div>
