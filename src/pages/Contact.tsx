@@ -21,56 +21,15 @@ const Contact = () => {
   return <div className="min-h-screen bg-background">
       <Header />
       <main className="max-w-6xl mx-auto px-6 py-16 animate-fade-in-up">
-        <h1 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-4 tracking-wide">
+        <h1 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-4 tracking-wide text-center">
           Kontakt
         </h1>
         <p className="text-muted-foreground mb-12 max-w-xl">
-          Masz pomysł na projekt? Chętnie poznam Twoje potrzeby i zaproponuję rozwiązanie dopasowane do Ciebie.
-        </p>
+      </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left - Contact Form */}
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label className="text-xs uppercase tracking-widest text-muted-foreground mb-2 block">
-                  Imię i Nazwisko
-                </label>
-                <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Jan Kowalski" className="w-full bg-muted/30 border border-border px-4 py-3 text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-primary transition-colors" required />
-              </div>
-              <div>
-                <label className="text-xs uppercase tracking-widest text-muted-foreground mb-2 block">
-                  Email
-                </label>
-                <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="jan@example.com" className="w-full bg-muted/30 border border-border px-4 py-3 text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-primary transition-colors" required />
-              </div>
-            </div>
-
-            <div>
-              <label className="text-xs uppercase tracking-widest text-muted-foreground mb-2 block">
-                Czego dotyczy zapytanie?
-              </label>
-              <select name="subject" value={formData.subject} onChange={handleChange} className="w-full bg-muted/30 border border-border px-4 py-3 text-foreground focus:outline-none focus:border-primary transition-colors appearance-none cursor-pointer" required>
-                <option value="">Wybierz temat</option>
-                <option value="editorial">Sesja Edytorialna</option>
-                <option value="commercial">Sesja Komercyjna</option>
-                <option value="portrait">Portret</option>
-                <option value="other">Inne</option>
-              </select>
-            </div>
-
-            <div>
-              <label className="text-xs uppercase tracking-widest text-muted-foreground mb-2 block">
-                Wiadomość
-              </label>
-              <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Opisz swój projekt lub zadaj pytanie..." rows={6} className="w-full bg-muted/30 border border-border px-4 py-3 text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-primary transition-colors resize-none" required />
-            </div>
-
-            <button type="submit" className="inline-flex items-center gap-2 bg-background border border-foreground text-foreground px-8 py-3 uppercase tracking-widest text-sm hover:bg-foreground hover:text-background transition-colors duration-300">
-              Wyślij Wiadomość
-              <Send className="w-4 h-4" />
-            </button>
-          </form>
+          
 
           {/* Right - Info Section */}
           <div className="space-y-12">
