@@ -25,15 +25,55 @@ const brandSections: BrandSection[] = [
   {
     brand: "YOLYN",
     items: [
-      { id: 6, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_03LOGO.png`, alt: "Yolyn 1" },
-      { id: 7, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_04.png`, alt: "Yolyn 2" },
-      { id: 8, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_07.png`, alt: "Yolyn 3" },
-      { id: 9, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_08.png`, alt: "Yolyn 4" },
-      { id: 10, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_10.png`, alt: "Yolyn 5" },
-      { id: 11, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_12.png`, alt: "Yolyn 6" },
-      { id: 12, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_15.png`, alt: "Yolyn 7" },
-      { id: 13, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_17.png`, alt: "Yolyn 8" },
-      { id: 14, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/yolyn/Yolyn_produkt_20.png`, alt: "Yolyn 9" },
+      { id: 6, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Yolyn_produkt_03LOGO.png`, alt: "Yolyn 1" },
+      { id: 7, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Yolyn_produkt_04.png`, alt: "Yolyn 2" },
+      { id: 8, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Yolyn_produkt_07.png`, alt: "Yolyn 3" },
+      { id: 9, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Yolyn_produkt_08.png`, alt: "Yolyn 4" },
+      { id: 10, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Yolyn_produkt_10.png`, alt: "Yolyn 5" },
+      { id: 11, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Yolyn_produkt_12.png`, alt: "Yolyn 6" },
+      { id: 12, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Yolyn_produkt_15.png`, alt: "Yolyn 7" },
+      { id: 13, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Yolyn_produkt_17.png`, alt: "Yolyn 8" },
+      { id: 14, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Yolyn_produkt_20.png`, alt: "Yolyn 9" },
+    ]
+  },
+  {
+    brand: "HEGRON",
+    items: [
+      { id: 15, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Hegron_produkt_02.png`, alt: "Hegron 1" },
+      { id: 16, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Hegron_produkt_03.png`, alt: "Hegron 2" },
+    ]
+  },
+  {
+    brand: "FASHION",
+    items: [
+      { id: 17, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/_79A0636.jpg`, alt: "Fashion 1" },
+      { id: 18, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/_79A0864.jpg`, alt: "Fashion 2" },
+      { id: 19, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/_79A0882.jpg`, alt: "Fashion 3" },
+    ]
+  },
+  {
+    brand: "SWETER BORDO",
+    items: [
+      { id: 20, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/sweter_bordo_01.png`, alt: "Sweter Bordo 1" },
+      { id: 21, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/sweter_bordo_02.png`, alt: "Sweter Bordo 2" },
+      { id: 22, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/sweter_bordo_03.png`, alt: "Sweter Bordo 3" },
+      { id: 23, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/sweter_bordo_04.png`, alt: "Sweter Bordo 4" },
+    ]
+  },
+  {
+    brand: "SWETER CIEMNY",
+    items: [
+      { id: 24, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/sweter_ciemny_01.png`, alt: "Sweter Ciemny 1" },
+      { id: 25, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/sweter_ciemny_02.png`, alt: "Sweter Ciemny 2" },
+      { id: 26, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/sweter_ciemny_03.png`, alt: "Sweter Ciemny 3" },
+    ]
+  },
+  {
+    brand: "KOMPLET SZTRUKS",
+    items: [
+      { id: 27, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/komplet_sztruks_01.png`, alt: "Komplet Sztruks 1" },
+      { id: 28, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/komplet_sztruks_02.png`, alt: "Komplet Sztruks 2" },
+      { id: 29, src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/komplet_sztruks_03.png`, alt: "Komplet Sztruks 3" },
     ]
   }
 ];
