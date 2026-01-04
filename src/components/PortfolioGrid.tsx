@@ -9,38 +9,22 @@ interface BrandSection {
   brand: string;
   items: PortfolioItem[];
 }
+const SUPABASE_URL = "https://kwwjdqbsxzbydejfmhnv.supabase.co";
+
 const brandSections: BrandSection[] = [{
-  brand: "ZARA",
+  brand: "CLARESA",
   items: [{
     id: 1,
-    src: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&q=80",
-    alt: "Zara Campaign 1"
+    src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa01.tusz.png`,
+    alt: "Claresa Tusz 1"
   }, {
     id: 2,
-    src: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
-    alt: "Zara Campaign 2"
-  }]
-}, {
-  brand: "H&M",
-  items: [{
+    src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa02.tusz.png`,
+    alt: "Claresa Tusz 2"
+  }, {
     id: 3,
-    src: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80",
-    alt: "H&M Editorial 1"
-  }, {
-    id: 4,
-    src: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
-    alt: "H&M Editorial 2"
-  }]
-}, {
-  brand: "RESERVED",
-  items: [{
-    id: 5,
-    src: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800&q=80",
-    alt: "Reserved Campaign 1"
-  }, {
-    id: 6,
-    src: "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=800&q=80",
-    alt: "Reserved Campaign 2"
+    src: `${SUPABASE_URL}/storage/v1/object/public/zdjecia/Claresa01.pomadka.png`,
+    alt: "Claresa Pomadka"
   }]
 }];
 const PortfolioGrid = () => {
