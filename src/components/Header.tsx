@@ -1,25 +1,15 @@
 import { Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
-
 const Header = () => {
-  return (
-    <header className="w-full py-8 px-6 md:px-12 animate-fade-in">
+  return <header className="w-full py-8 px-6 md:px-12 animate-fade-in">
       {/* Logo */}
       <div className="text-center mb-6">
-        <Link to="/" className="logo-text inline-block">
-          CELAR
-        </Link>
+        <Link to="/" className="logo-text inline-block">DAGMARA PARSZEWSKA</Link>
       </div>
 
       {/* Social Icon */}
       <div className="flex justify-center mb-8">
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-icon"
-          aria-label="Instagram"
-        >
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
           <Instagram size={18} strokeWidth={1.5} />
         </a>
       </div>
@@ -36,8 +26,6 @@ const Header = () => {
           About
         </Link>
       </nav>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
