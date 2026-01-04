@@ -27,12 +27,9 @@ const Contact = () => {
         <p className="text-muted-foreground mb-12 max-w-xl">
       </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          {/* Left - Contact Form */}
-          
-
-          {/* Right - Info Section */}
-          <div className="space-y-12">
+        <div className="flex justify-center">
+          {/* Info Section */}
+          <div className="space-y-12 max-w-xl">
             {/* How it works */}
             <div>
               <h2 className="font-display text-2xl md:text-3xl font-medium text-foreground mb-6">
