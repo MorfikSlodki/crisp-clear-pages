@@ -16,15 +16,9 @@ const Header = () => {
 
       {/* Navigation */}
       <nav className="flex justify-center items-center gap-10 md:gap-14">
-        <Link to="/" className="nav-link">
-          Selected Work
-        </Link>
-        <Link to="/contact" className="nav-link">
-          Contact
-        </Link>
-        <Link to="/about" className="nav-link">
-          About
-        </Link>
+        <Link to="/" className="nav-link">Moje prace</Link>
+        <Link to="/contact" className="nav-link">Kontakt</Link>
+        <Link to="/about" className="nav-link">O mnie</Link>
       </nav>
     </header>;
 };
