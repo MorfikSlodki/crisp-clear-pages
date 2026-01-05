@@ -77,7 +77,7 @@ const brandSections: BrandSection[] = [
   },
   {
     brand: "LE.SONGE",
-    logo: `${STORAGE_PATH}/LE.SONGElogo.png`,
+    logo: undefined,
     items: [
       { id: 40, src: `${STORAGE_PATH}/LE.SONGE01.jpg`, alt: "Le Songe 1" },
       { id: 41, src: `${STORAGE_PATH}/LE.SONGE02.jpg`, alt: "Le Songe 2" },
