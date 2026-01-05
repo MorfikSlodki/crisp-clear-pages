@@ -7,6 +7,11 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   base: "/crisp-clear-pages/",
 
+  build: {
+    outDir: "docs",
+    emptyOutDir: true,
+  },
+
   server: {
     host: "::",
     port: 8080,
