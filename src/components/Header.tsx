@@ -9,7 +9,7 @@ const Header = () => {
 
       {/* Social Icon */}
       <div className="flex justify-center mb-8">
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
+        <a href="https://www.instagram.com/dagmara_parszewska" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
           <Instagram size={18} strokeWidth={1.5} />
         </a>
       </div>
