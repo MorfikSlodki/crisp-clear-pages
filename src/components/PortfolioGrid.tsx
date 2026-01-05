@@ -10,6 +10,7 @@ interface PortfolioItem {
 interface BrandSection {
   brand: string;
   logo?: string;
+  hideText?: boolean;
   items: PortfolioItem[];
 }
 
@@ -27,6 +28,7 @@ const brandSections: BrandSection[] = [
   {
     brand: "CLARESA",
     logo: `${STORAGE_PATH}/claresalogo.png`,
+    hideText: true,
     items: [
       { id: 1, src: `${STORAGE_PATH}/Claresa01.jpg`, alt: "Claresa 1" },
       { id: 2, src: `${STORAGE_PATH}/Claresa02.jpg`, alt: "Claresa 2" },
@@ -41,6 +43,7 @@ const brandSections: BrandSection[] = [
   {
     brand: "YOLYN",
     logo: `${STORAGE_PATH}/logoyolyn.png`,
+    hideText: true,
     items: [
       { id: 10, src: `${STORAGE_PATH}/Yolyn01.jpg`, alt: "Yolyn 1" },
       { id: 11, src: `${STORAGE_PATH}/Yolyn02.jpg`, alt: "Yolyn 2" },
@@ -64,6 +67,7 @@ const brandSections: BrandSection[] = [
   {
     brand: "ZALANDO",
     logo: `${STORAGE_PATH}/Zalandologo.png`,
+    hideText: true,
     items: [
       { id: 30, src: `${STORAGE_PATH}/Zalando01.jpg`, alt: "Zalando 1" },
       { id: 31, src: `${STORAGE_PATH}/Zalando02.jpg`, alt: "Zalando 2" },
@@ -215,9 +219,11 @@ const PortfolioGrid = () => {
                     className="h-8 w-auto object-contain"
                   />
                 )}
-                <h2 className="font-display text-2xl md:text-3xl tracking-wider text-center">
-                  {section.brand}
-                </h2>
+                {!section.hideText && (
+                  <h2 className="font-display text-2xl md:text-3xl tracking-wider text-center">
+                    {section.brand}
+                  </h2>
+                )}
                 {hasMore && (
                   <span className="text-muted-foreground text-sm ml-2">
                     (+{section.items.length - VISIBLE_COUNT})
