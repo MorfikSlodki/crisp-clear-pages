@@ -87,7 +87,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <a href="https://instagram.com/celar.studio" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+                <a href="https://www.instagram.com/dagmara_parszewska" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                   <div className="w-12 h-12 border border-border flex items-center justify-center group-hover:border-primary transition-colors">
                     <Instagram className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
                   </div>
