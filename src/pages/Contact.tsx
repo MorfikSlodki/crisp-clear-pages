@@ -73,7 +73,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-xs uppercase tracking-widest text-muted-foreground">Telefon</p>
-                    <p className="text-foreground">+48 123 456 789</p>
+                    <p className="text-foreground">+48 724 189 181 </p>
                   </div>
                 </a>
 
@@ -93,7 +93,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-xs uppercase tracking-widest text-muted-foreground">Instagram</p>
-                    <p className="text-foreground">@dagmarapars</p>
+                    <p className="text-foreground">@dagmaraparszewska</p>
                   </div>
                 </a>
               </div>
