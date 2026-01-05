@@ -63,7 +63,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-xs uppercase tracking-widest text-muted-foreground">Email</p>
-                    <p className="text-foreground">dagmaraparszewska@hello.com</p>
+                    <p className="text-foreground">​hello@dagmaraparszewska.pl
+                  </p>
                   </div>
                 </a>
 
