@@ -121,6 +121,18 @@ const brandSections: BrandSection[] = [
     ]
   },
   {
+    brand: "PRACOWNIA WYBÓR",
+    logo: `${STORAGE_PATH}/PracowniaWyborlogo.png`,
+    items: [
+      { id: 90, src: `${STORAGE_PATH}/PracowniaWybor01.jpg`, alt: "Pracownia Wybór 1" },
+      { id: 91, src: `${STORAGE_PATH}/PracowniaWybor02.jpg`, alt: "Pracownia Wybór 2" },
+      { id: 92, src: `${STORAGE_PATH}/PracowniaWybor03.jpg`, alt: "Pracownia Wybór 3" },
+      { id: 93, src: `${STORAGE_PATH}/PracowniaWybor04.jpg`, alt: "Pracownia Wybór 4" },
+      { id: 94, src: `${STORAGE_PATH}/PracowniaWybor05.jpg`, alt: "Pracownia Wybór 5" },
+      { id: 95, src: `${STORAGE_PATH}/PracowniaWybor06.jpg`, alt: "Pracownia Wybór 6" },
+    ]
+  },
+  {
     brand: "PROJEKTY PRYWATNE",
     logo: undefined,
     items: [
