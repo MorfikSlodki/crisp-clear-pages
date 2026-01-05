@@ -192,10 +192,14 @@ const PortfolioGrid = () => {
           return (
             <div key={section.brand} className="mb-16 last:mb-0">
               <div className="flex items-center justify-center gap-3 mb-8 opacity-0 animate-fade-in-up">
-                {section.logo && (
+              {section.logo && (
                   <img
                     src={section.logo}
                     alt={`${section.brand} logo`}
+                    width={100}
+                    height={32}
+                    loading="lazy"
+                    decoding="async"
                     className="h-8 w-auto object-contain"
                   />
                 )}
@@ -210,7 +214,7 @@ const PortfolioGrid = () => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {visibleItems.map((item, index) => {
-                  const isAboveFold = sectionIndex === 0 && index < 2;
+                  const isAboveFold = sectionIndex === 0 && index < 3;
                   const globalIndex = section.items.findIndex(i => i.id === item.id);
                   
                   return (
@@ -223,8 +227,11 @@ const PortfolioGrid = () => {
                         <img
                           src={item.src}
                           alt={item.alt}
+                          width={416}
+                          height={520}
                           loading={isAboveFold ? "eager" : "lazy"}
                           fetchPriority={isAboveFold ? "high" : "auto"}
+                          decoding={isAboveFold ? "sync" : "async"}
                           className="w-full h-full object-contain"
                         />
                         {hasMore && index === VISIBLE_COUNT - 1 && (
