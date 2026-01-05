@@ -33,5 +33,29 @@
   <body>
     <div id="root"></div>
 
+    <script>
+      // GitHub Pages SPA fallback: load the real index.html and replace body
+      (function () {
+        try {
+          // If the index is already loaded (normal case), do nothing
+          if (location.pathname === '/crisp-clear-pages/' || location.pathname === '/crisp-clear-pages/index.html') return;
+          fetch('/crisp-clear-pages/index.html')
+            .then(function (r) { return r.text(); })
+            .then(function (html) {
+              var parser = new DOMParser();
+              var doc = parser.parseFromString(html, 'text/html');
+              document.documentElement.replaceChild(doc.documentElement, document.documentElement);
+              // update the history so relative assets resolve correctly
+              history.replaceState({}, '', '/crisp-clear-pages/');
+            })
+            .catch(function () {
+              // fallback: do nothing
+            });
+        } catch (e) {
+          // ignore
+        }
+      })();
+    </script>
+
   </body>
 </html>
