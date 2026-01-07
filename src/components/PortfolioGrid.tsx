@@ -62,6 +62,18 @@ const brandSections: BrandSection[] = [{
   logo: `${STORAGE_PATH}/logoyolyn.png`,
   hideText: true,
   items: [{
+    id: 18,
+    src: `${STORAGE_PATH}/Yolyn09.jpg`,
+    alt: "Yolyn 9"
+  }, {
+    id: 15,
+    src: `${STORAGE_PATH}/Yolyn06.jpg`,
+    alt: "Yolyn 6"
+  }, {
+    id: 16,
+    src: `${STORAGE_PATH}/Yolyn07.jpg`,
+    alt: "Yolyn 7"
+  }, {
     id: 10,
     src: `${STORAGE_PATH}/Yolyn01.jpg`,
     alt: "Yolyn 1"
@@ -82,21 +94,9 @@ const brandSections: BrandSection[] = [{
     src: `${STORAGE_PATH}/Yolyn05.jpg`,
     alt: "Yolyn 5"
   }, {
-    id: 15,
-    src: `${STORAGE_PATH}/Yolyn06.jpg`,
-    alt: "Yolyn 6"
-  }, {
-    id: 16,
-    src: `${STORAGE_PATH}/Yolyn07.jpg`,
-    alt: "Yolyn 7"
-  }, {
     id: 17,
     src: `${STORAGE_PATH}/Yolyn08.jpg`,
     alt: "Yolyn 8"
-  }, {
-    id: 18,
-    src: `${STORAGE_PATH}/Yolyn09.jpg`,
-    alt: "Yolyn 9"
   }]
 }, {
   brand: "HEGRON",
@@ -115,6 +115,14 @@ const brandSections: BrandSection[] = [{
   logo: `${STORAGE_PATH}/Zalandologo.png`,
   hideText: true,
   items: [{
+    id: 37,
+    src: `${STORAGE_PATH}/Zalando08.jpg`,
+    alt: "Zalando 8"
+  }, {
+    id: 35,
+    src: `${STORAGE_PATH}/Zalando06.jpg`,
+    alt: "Zalando 6"
+  }, {
     id: 30,
     src: `${STORAGE_PATH}/Zalando01.jpg`,
     alt: "Zalando 1"
@@ -135,33 +143,29 @@ const brandSections: BrandSection[] = [{
     src: `${STORAGE_PATH}/Zalando05.jpg`,
     alt: "Zalando 5"
   }, {
-    id: 35,
-    src: `${STORAGE_PATH}/Zalando06.jpg`,
-    alt: "Zalando 6"
-  }, {
     id: 36,
     src: `${STORAGE_PATH}/Zalando07.jpg`,
     alt: "Zalando 7"
-  }, {
-    id: 37,
-    src: `${STORAGE_PATH}/Zalando08.jpg`,
-    alt: "Zalando 8"
   }]
 }, {
   brand: "LE.SONGE",
   logo: undefined,
   items: [{
+    id: 42,
+    src: `${STORAGE_PATH}/LE.SONGE03.jpg`,
+    alt: "Le Songe 3"
+  }, {
     id: 40,
     src: `${STORAGE_PATH}/LE.SONGE01.jpg`,
     alt: "Le Songe 1"
   }, {
+    id: 47,
+    src: `${STORAGE_PATH}/LE.SONGE08.jpg`,
+    alt: "Le Songe 8"
+  }, {
     id: 41,
     src: `${STORAGE_PATH}/LE.SONGE02.jpg`,
     alt: "Le Songe 2"
-  }, {
-    id: 42,
-    src: `${STORAGE_PATH}/LE.SONGE03.jpg`,
-    alt: "Le Songe 3"
   }, {
     id: 43,
     src: `${STORAGE_PATH}/LE.SONGE04.jpg`,
@@ -178,10 +182,6 @@ const brandSections: BrandSection[] = [{
     id: 46,
     src: `${STORAGE_PATH}/LE.SONGE07.jpg`,
     alt: "Le Songe 7"
-  }, {
-    id: 47,
-    src: `${STORAGE_PATH}/LE.SONGE08.jpg`,
-    alt: "Le Songe 8"
   }, {
     id: 48,
     src: `${STORAGE_PATH}/LE.SONGE09.jpg`,
@@ -204,12 +204,20 @@ const brandSections: BrandSection[] = [{
   logo: `${STORAGE_PATH}/candidlogo.png`,
   items: []
 }, {
-  brand: "PORCJA FRYTEK",
+  brand: "WSPÓŁPRACA INFLUENCERSKA",
   logo: undefined,
   items: [{
+    id: 66,
+    src: `${STORAGE_PATH}/PorcjaFrytek07.jpg`,
+    alt: "Porcja Frytek 7"
+  }, {
     id: 60,
     src: `${STORAGE_PATH}/PorcjaFrytek01.jpg`,
     alt: "Porcja Frytek 1"
+  }, {
+    id: 72,
+    src: `${STORAGE_PATH}/PorcjaFrytek13.jpg`,
+    alt: "Porcja Frytek 13"
   }, {
     id: 61,
     src: `${STORAGE_PATH}/PorcjaFrytek02.jpg`,
@@ -231,10 +239,6 @@ const brandSections: BrandSection[] = [{
     src: `${STORAGE_PATH}/PorcjaFrytek06.jpg`,
     alt: "Porcja Frytek 6"
   }, {
-    id: 66,
-    src: `${STORAGE_PATH}/PorcjaFrytek07.jpg`,
-    alt: "Porcja Frytek 7"
-  }, {
     id: 67,
     src: `${STORAGE_PATH}/PorcjaFrytek08.jpg`,
     alt: "Porcja Frytek 8"
@@ -255,10 +259,6 @@ const brandSections: BrandSection[] = [{
     src: `${STORAGE_PATH}/PorcjaFrytek12.jpg`,
     alt: "Porcja Frytek 12"
   }, {
-    id: 72,
-    src: `${STORAGE_PATH}/PorcjaFrytek13.jpg`,
-    alt: "Porcja Frytek 13"
-  }, {
     id: 73,
     src: `${STORAGE_PATH}/PorcjaFrytek14.jpg`,
     alt: "Porcja Frytek 14"
@@ -275,13 +275,21 @@ const brandSections: BrandSection[] = [{
   brand: "PRACOWNIA WYBÓR",
   logo: `${STORAGE_PATH}/PracowniaWyborlogo.png`,
   items: [{
-    id: 90,
-    src: `${STORAGE_PATH}/PracowniaWybor01.jpg`,
-    alt: "Pracownia Wybór 1"
+    id: 95,
+    src: `${STORAGE_PATH}/PracowniaWybor06.jpg`,
+    alt: "Pracownia Wybór 6"
   }, {
     id: 91,
     src: `${STORAGE_PATH}/PracowniaWybor02.jpg`,
     alt: "Pracownia Wybór 2"
+  }, {
+    id: 94,
+    src: `${STORAGE_PATH}/PracowniaWybor05.jpg`,
+    alt: "Pracownia Wybór 5"
+  }, {
+    id: 90,
+    src: `${STORAGE_PATH}/PracowniaWybor01.jpg`,
+    alt: "Pracownia Wybór 1"
   }, {
     id: 92,
     src: `${STORAGE_PATH}/PracowniaWybor03.jpg`,
@@ -290,14 +298,6 @@ const brandSections: BrandSection[] = [{
     id: 93,
     src: `${STORAGE_PATH}/PracowniaWybor04.jpg`,
     alt: "Pracownia Wybór 4"
-  }, {
-    id: 94,
-    src: `${STORAGE_PATH}/PracowniaWybor05.jpg`,
-    alt: "Pracownia Wybór 5"
-  }, {
-    id: 95,
-    src: `${STORAGE_PATH}/PracowniaWybor06.jpg`,
-    alt: "Pracownia Wybór 6"
   }]
 }, {
   brand: "PROJEKTY PRYWATNE / PROJEKTY PERSONALNE",
@@ -307,13 +307,17 @@ const brandSections: BrandSection[] = [{
     src: `${STORAGE_PATH}/ProjektyPrywatne01.jpg`,
     alt: "Projekty Prywatne 1"
   }, {
-    id: 81,
-    src: `${STORAGE_PATH}/ProjektyPrywatne02.jpg`,
-    alt: "Projekty Prywatne 2"
+    id: 86,
+    src: `${STORAGE_PATH}/ProjektyPrywatne07.jpg`,
+    alt: "Projekty Prywatne 7"
   }, {
     id: 82,
     src: `${STORAGE_PATH}/ProjektyPrywatne03.jpg`,
     alt: "Projekty Prywatne 3"
+  }, {
+    id: 81,
+    src: `${STORAGE_PATH}/ProjektyPrywatne02.jpg`,
+    alt: "Projekty Prywatne 2"
   }, {
     id: 83,
     src: `${STORAGE_PATH}/ProjektyPrywatne04.jpg`,
@@ -326,10 +330,6 @@ const brandSections: BrandSection[] = [{
     id: 85,
     src: `${STORAGE_PATH}/ProjektyPrywatne06.jpg`,
     alt: "Projekty Prywatne 6"
-  }, {
-    id: 86,
-    src: `${STORAGE_PATH}/ProjektyPrywatne07.jpg`,
-    alt: "Projekty Prywatne 7"
   }, {
     id: 87,
     src: `${STORAGE_PATH}/ProjektyPrywatne08.jpg`,
