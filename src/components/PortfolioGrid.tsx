@@ -97,10 +97,8 @@ const brandSections: BrandSection[] = [{
     alt: "Claresa 8"
   }]
 }, {
-  brand: "LE.SONGE",
-  logo: `${STORAGE_PATH}/nowelogolesonge.png`,
-  logoSize: "h-14",
-  hideText: true,
+  brand: "LE•SONGE",
+  logo: undefined,
   items: [{
     id: 42,
     src: `${STORAGE_PATH}/LE.SONGE03.jpg`,
