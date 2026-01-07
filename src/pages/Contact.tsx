@@ -41,9 +41,7 @@ const Contact = () => {
 
             {/* Contact Details */}
             <div>
-              <h2 className="font-display text-2xl md:text-3xl font-medium text-foreground mb-6">
-                Dane Kontaktowe
-              </h2>
+              
               <div className="space-y-4">
                 <a href="mailto:hello@celar.studio" className="flex items-center gap-4 group">
                   <div className="w-12 h-12 border border-border flex items-center justify-center group-hover:border-primary transition-colors">
