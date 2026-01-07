@@ -1,11 +1,8 @@
 import Header from "@/components/Header";
-
 const SUPABASE_URL = "https://kwwjdqbsxzbydejfmhnv.supabase.co";
 const STORAGE_PATH = `${SUPABASE_URL}/storage/v1/object/public/zdjecia`;
-
 const About = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Header />
       <main className="max-w-5xl mx-auto px-6 py-16 animate-fade-in-up">
         <div className="flex flex-col md:flex-row gap-12 md:gap-16">
@@ -17,28 +14,21 @@ const About = () => {
 
             <div className="space-y-6 text-muted-foreground font-body text-base leading-relaxed">
               <p>
-                Jestem fotografką, która wzmacnia komunikację marek, tworząc
-                estetyczne, spójne i funkcjonalne wizualnie materiały. Łączę
-                wrażliwość z doświadczeniem marketingowym, dzięki czemu zdjęcia
-                stają się narzędziem wspierającym przekaz.
+                ​Jestem fotografką, która wzmacnia komunikację marek, tworząc estetyczne, spójne i 
+funkcjonalne wizualnie materiały. Działam w fotografii produktowej, wizerunkowej i 
+lifestyle'owej. Łączę w niej wrażliwość z doświadczeniem marketingowym, dzięki 
+czemu zdjęcia stają się narzędziem wspierającym przekaz w social media, 
+kampaniach, na stronach internetowych oraz w materiałach sprzedażowych.  
               </p>
 
-              <p>
-                Poruszam się między fotografią produktową, wizerunkową i
-                lifestyle'ową. Interesuje mnie to, jak obraz działa w
-                komunikacji — w social media, kampaniach, na stronach
-                internetowych oraz w materiałach sprzedażowych. Każde ujęcie
-                projektuję z myślą o konkretnym formacie, kanale i kontekście
-                marki.
-              </p>
+              
 
               <p>
-                W realizacjach szczególny nacisk kładę na estetykę, ton i
-                spójność wizualną. Dzięki marketingowemu backgroundowi potrafię
-                przełożyć cele biznesowe na język obrazu, który porządkuje
-                przekaz i wspiera komunikację. Tworzę fotografie, które budują
-                atmosferę i pozwalają odbiorcy skupić się na tym, co
-                najważniejsze.
+                ​W realizacjach szczególny nacisk kładę na estetykę, ton i spójność wizualną. Dzięki 
+marketingowemu backgroundowi potrafię przełożyć cele biznesowe na język obrazu, 
+który porządkuje przekaz i wspiera komunikację. Tworzę fotografie, które budują 
+atmosferę i pozwalają odbiorcy skupić się na tym, co najważniejsze.
+
               </p>
             </div>
 
@@ -60,18 +50,11 @@ const About = () => {
           {/* Right photo */}
           <div className="md:w-80 lg:w-96 flex-shrink-0">
             <div className="sticky top-24">
-              <img
-                src={`${STORAGE_PATH}/zdjomnie.png`}
-                alt="Zdjęcie autorki"
-                className="w-full h-auto object-cover rounded-sm"
-                loading="eager"
-              />
+              <img src={`${STORAGE_PATH}/zdjomnie.png`} alt="Zdjęcie autorki" className="w-full h-auto object-cover rounded-sm" loading="eager" />
             </div>
           </div>
         </div>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default About;
