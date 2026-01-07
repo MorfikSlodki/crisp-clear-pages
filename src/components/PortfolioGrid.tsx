@@ -8,6 +8,7 @@ interface PortfolioItem {
 interface BrandSection {
   brand: string;
   logo?: string;
+  logoSize?: string;
   hideText?: boolean;
   items: PortfolioItem[];
 }
@@ -23,6 +24,7 @@ const topFeatured: PortfolioItem[] = [
 const brandSections: BrandSection[] = [{
   brand: "ZALANDO",
   logo: `${STORAGE_PATH}/Zalandologo.png`,
+  logoSize: "h-8",
   hideText: true,
   items: [{
     id: 37,
@@ -377,7 +379,7 @@ const PortfolioGrid = () => {
         const hasMore = section.items.length > VISIBLE_COUNT;
         return <div key={section.brand} className="mb-16 last:mb-0" style={{ contentVisibility: sectionIndex > 1 ? 'auto' : 'visible', containIntrinsicSize: '0 600px' }}>
               <div className="flex items-center justify-center gap-3 mb-8 opacity-0 animate-fade-in-up">
-              {section.logo && <img src={section.logo} alt={`${section.brand} logo`} width={80} height={24} loading="lazy" decoding="async" className="h-6 w-auto object-contain" />}
+              {section.logo && <img src={section.logo} alt={`${section.brand} logo`} width={80} height={24} loading="lazy" decoding="async" className={`${section.logoSize || 'h-6'} w-auto object-contain`} />}
                 {!section.hideText && <h2 className="font-display text-2xl md:text-3xl tracking-wider text-center">
                     {section.brand}
                   </h2>}
