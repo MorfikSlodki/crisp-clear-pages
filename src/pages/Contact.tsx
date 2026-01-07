@@ -20,7 +20,7 @@ const Contact = () => {
   };
   return <div className="min-h-screen bg-background">
       <Header />
-      <main className="max-w-6xl mx-auto px-6 py-8 animate-fade-in-up">
+      <main className="max-w-6xl mx-auto py-8 animate-fade-in-up px-[2px] pt-0">
         
         <p className="text-muted-foreground mb-12 max-w-xl">
       </p>
