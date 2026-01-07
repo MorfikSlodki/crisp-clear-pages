@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import PortfolioGrid from "@/components/PortfolioGrid";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <main className="pt-4">
         <PortfolioGrid />
       </main>
+      <ScrollToTop />
     </div>
   );
 };
