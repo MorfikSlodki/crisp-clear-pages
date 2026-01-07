@@ -21,9 +21,7 @@ const Contact = () => {
   return <div className="min-h-screen bg-background">
       <Header />
       <main className="max-w-6xl mx-auto px-6 py-16 animate-fade-in-up">
-        <h1 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-4 tracking-wide text-center">
-          Kontakt
-        </h1>
+        
         <p className="text-muted-foreground mb-12 max-w-xl">
       </p>
 
@@ -32,22 +30,12 @@ const Contact = () => {
           <div className="space-y-12 max-w-xl">
             {/* How it works */}
             <div>
-              <h2 className="font-display text-2xl md:text-3xl font-medium text-foreground mb-6">
-                Jak wygląda współpraca?
-              </h2>
+              
               <div className="space-y-4">
-                <p className="text-muted-foreground">
-                  <span className="text-primary font-medium">1. Rozmowa</span> - Poznajemy się, omawiam Twoje potrzeby i cele projektu.
-                </p>
-                <p className="text-muted-foreground">
-                  <span className="text-primary font-medium">2. Oferta</span> - Przygotowuję indywidualną propozycję dopasowaną do Twojego budżetu.
-                </p>
-                <p className="text-muted-foreground">
-                  <span className="text-primary font-medium">3. Realizacja</span> - Działamy! Regularnie informuję o postępach prac.
-                </p>
-                <p className="text-muted-foreground">
-                  <span className="text-primary font-medium">4. Efekt</span> - Dostajesz gotowe materiały i pełne prawa do ich wykorzystania.
-                </p>
+                
+                
+                
+                
               </div>
             </div>
 
