@@ -28,7 +28,7 @@ const Contact = () => {
             <div>
               
               <div className="space-y-4">
-                <a href="mailto:hello@celar.studio" className="flex items-center gap-4 group">
+                <a href="mailto:hello@dagmaraparszewska.pl" className="flex items-center gap-4 group">
                   <div className="w-12 h-12 border border-border flex items-center justify-center group-hover:border-primary transition-colors">
                     <Mail className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
                   </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                   </div>
                 </a>
 
-                <a href="tel:+48123456789" className="flex items-center gap-4 group">
+                <a href="tel:+48724189181 " className="flex items-center gap-4 group">
                   <div className="w-12 h-12 border border-border flex items-center justify-center group-hover:border-primary transition-colors">
                     <Phone className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
                   </div>
