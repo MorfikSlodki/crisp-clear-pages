@@ -6,7 +6,14 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     const toggleVisibility = () => {
-      if (window.scrollY > 500) {
+      const scrollHeight = document.documentElement.scrollHeight;
+      const clientHeight = window.innerHeight;
+      const scrollTop = window.scrollY;
+      
+      // Show when user is in the last 20% of the page
+      const threshold = scrollHeight - clientHeight * 1.5;
+      
+      if (scrollTop > threshold) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
@@ -29,7 +36,7 @@ const ScrollToTop = () => {
   return (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-8 right-8 z-50 w-12 h-12 bg-primary text-primary-foreground flex items-center justify-center shadow-lg hover:bg-primary/90 transition-all duration-300 animate-fade-in"
+      className="fixed bottom-8 right-8 z-50 w-12 h-12 bg-black text-white flex items-center justify-center shadow-lg hover:bg-black/80 transition-all duration-300 animate-fade-in"
       aria-label="Wróć na górę"
     >
       <ArrowUp className="w-5 h-5" />
