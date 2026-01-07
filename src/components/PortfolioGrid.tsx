@@ -375,7 +375,7 @@ const PortfolioGrid = () => {
         {activeSections.map((section, sectionIndex) => {
         const visibleItems = section.items.slice(0, VISIBLE_COUNT);
         const hasMore = section.items.length > VISIBLE_COUNT;
-        return <div key={section.brand} className="mb-16 last:mb-0">
+        return <div key={section.brand} className="mb-16 last:mb-0" style={{ contentVisibility: sectionIndex > 1 ? 'auto' : 'visible', containIntrinsicSize: '0 600px' }}>
               <div className="flex items-center justify-center gap-3 mb-8 opacity-0 animate-fade-in-up">
               {section.logo && <img src={section.logo} alt={`${section.brand} logo`} width={100} height={32} loading="lazy" decoding="async" className="h-8 w-auto object-contain" />}
                 {!section.hideText && <h2 className="font-display text-2xl md:text-3xl tracking-wider text-center">
