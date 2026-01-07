@@ -27,18 +27,7 @@ const Contact = () => {
 
         <div className="flex justify-center">
           {/* Info Section */}
-          <div className="space-y-12 max-w-xl">
-            {/* How it works */}
-            <div>
-              
-              <div className="space-y-4">
-                
-                
-                
-                
-              </div>
-            </div>
-
+          <div className="space-y-6 max-w-xl">
             {/* Contact Details */}
             <div>
               
