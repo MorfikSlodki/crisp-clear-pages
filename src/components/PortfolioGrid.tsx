@@ -296,7 +296,7 @@ const brandSections: BrandSection[] = [{
     alt: "Pracownia Wybór 4"
   }]
 }, {
-  brand: "PROJEKTY PRYWATNE / PROJEKTY PERSONALNE",
+  brand: "POZOSTAŁE PROJEKTY",
   logo: undefined,
   items: [{
     id: 80,
