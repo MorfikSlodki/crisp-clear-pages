@@ -1,0 +1,73 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Dagmara Parszewska</title>
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://kwwjdqbsxzbydejfmhnv.supabase.co" crossorigin />
+  <link rel="dns-prefetch" href="https://kwwjdqbsxzbydejfmhnv.supabase.co" />
+
+  <!-- Preload images -->
+  <link
+    rel="preload"
+    as="image"
+    href="https://kwwjdqbsxzbydejfmhnv.supabase.co/storage/v1/object/public/zdjecia/Claresa01.jpg"
+    fetchpriority="high"
+  />
+  <link
+    rel="preload"
+    as="image"
+    href="https://kwwjdqbsxzbydejfmhnv.supabase.co/storage/v1/object/public/zdjecia/Claresa02.jpg"
+  />
+  <link
+    rel="preload"
+    as="image"
+    href="https://kwwjdqbsxzbydejfmhnv.supabase.co/storage/v1/object/public/zdjecia/claresa03.jpg"
+  />
+
+  <!-- SEO -->
+  <meta
+    name="description"
+    content="Dagmara Parszewska – fotografka, content creator, fotografia produktowa i wizerunkowa"
+  />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://celar.studio" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dagmara Parszewska" />
+  <meta
+    property="og:description"
+    content="Dagmara Parszewska – fotografia produktowa, wizerunkowa i content creatorska"
+  />
+  <meta
+    property="og:image"
+    content="https://kwwjdqbsxzbydejfmhnv.supabase.co/storage/v1/object/public/zdjecia/zdjomnie.png"
+  />
+  <meta property="og:image:alt" content="Dagmara Parszewska – fotografia i content" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@celar" />
+  <meta name="twitter:title" content="Dagmara Parszewska" />
+  <meta
+    name="twitter:description"
+    content="Dagmara Parszewska – fotografia produktowa, wizerunkowa i content creatorska"
+  />
+  <meta
+    name="twitter:image"
+    content="https://kwwjdqbsxzbydejfmhnv.supabase.co/storage/v1/object/public/zdjecia/zdjomnie.png"
+  />
+
+  <!-- Favicon -->
+  <link
+    rel="icon"
+    type="image/png"
+    href="https://storage.googleapis.com/gpt-engineer-file-uploads/vycd871hgnTXrv4qgwkDfg2Aril1/uploads/1767636797168-DAGMARA2.png"
+  />
+
+  <!-- App -->
+  <script type="module" crossorigin src="/assets/index-CuLn_Hw4.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DDuQZcLX.css" />
+</head>
