@@ -98,7 +98,8 @@ const brandSections: BrandSection[] = [{
   }]
 }, {
   brand: "LE.SONGE",
-  logo: undefined,
+  logo: `${STORAGE_PATH}/nowelogolesonge.png`,
+  hideText: true,
   items: [{
     id: 42,
     src: `${STORAGE_PATH}/LE.SONGE03.jpg`,
