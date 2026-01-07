@@ -21,96 +21,6 @@ const topFeatured: PortfolioItem[] = [
   // { id: 102, src: `${STORAGE_PATH}/top3.jpg`, alt: "Top 3" },
 ];
 const brandSections: BrandSection[] = [{
-  brand: "CLARESA",
-  logo: `${STORAGE_PATH}/claresalogo.png`,
-  hideText: true,
-  items: [{
-    id: 1,
-    src: `${STORAGE_PATH}/Claresa01.jpg`,
-    alt: "Claresa 1"
-  }, {
-    id: 2,
-    src: `${STORAGE_PATH}/Claresa02.jpg`,
-    alt: "Claresa 2"
-  }, {
-    id: 3,
-    src: `${STORAGE_PATH}/claresa03.jpg`,
-    alt: "Claresa 3"
-  }, {
-    id: 4,
-    src: `${STORAGE_PATH}/claresa04.jpg`,
-    alt: "Claresa 4"
-  }, {
-    id: 5,
-    src: `${STORAGE_PATH}/claresa05.jpg`,
-    alt: "Claresa 5"
-  }, {
-    id: 6,
-    src: `${STORAGE_PATH}/claresa06.jpg`,
-    alt: "Claresa 6"
-  }, {
-    id: 7,
-    src: `${STORAGE_PATH}/claresa07.jpg`,
-    alt: "Claresa 7"
-  }, {
-    id: 8,
-    src: `${STORAGE_PATH}/claresa08.jpg`,
-    alt: "Claresa 8"
-  }]
-}, {
-  brand: "YOLYN",
-  logo: `${STORAGE_PATH}/logoyolyn.png`,
-  hideText: true,
-  items: [{
-    id: 18,
-    src: `${STORAGE_PATH}/Yolyn09.jpg`,
-    alt: "Yolyn 9"
-  }, {
-    id: 15,
-    src: `${STORAGE_PATH}/Yolyn06.jpg`,
-    alt: "Yolyn 6"
-  }, {
-    id: 16,
-    src: `${STORAGE_PATH}/Yolyn07.jpg`,
-    alt: "Yolyn 7"
-  }, {
-    id: 10,
-    src: `${STORAGE_PATH}/Yolyn01.jpg`,
-    alt: "Yolyn 1"
-  }, {
-    id: 11,
-    src: `${STORAGE_PATH}/Yolyn02.jpg`,
-    alt: "Yolyn 2"
-  }, {
-    id: 12,
-    src: `${STORAGE_PATH}/Yolyn03.jpg`,
-    alt: "Yolyn 3"
-  }, {
-    id: 13,
-    src: `${STORAGE_PATH}/Yolyn04.jpg`,
-    alt: "Yolyn 4"
-  }, {
-    id: 14,
-    src: `${STORAGE_PATH}/Yolyn05.jpg`,
-    alt: "Yolyn 5"
-  }, {
-    id: 17,
-    src: `${STORAGE_PATH}/Yolyn08.jpg`,
-    alt: "Yolyn 8"
-  }]
-}, {
-  brand: "HEGRON",
-  logo: `${STORAGE_PATH}/logohegron.png`,
-  items: [{
-    id: 20,
-    src: `${STORAGE_PATH}/Hegron01.jpg`,
-    alt: "Hegron 1"
-  }, {
-    id: 21,
-    src: `${STORAGE_PATH}/Hegron02.jpg`,
-    alt: "Hegron 2"
-  }]
-}, {
   brand: "ZALANDO",
   logo: `${STORAGE_PATH}/Zalandologo.png`,
   hideText: true,
@@ -146,6 +56,43 @@ const brandSections: BrandSection[] = [{
     id: 36,
     src: `${STORAGE_PATH}/Zalando07.jpg`,
     alt: "Zalando 7"
+  }]
+}, {
+  brand: "CLARESA",
+  logo: `${STORAGE_PATH}/claresalogo.png`,
+  hideText: true,
+  items: [{
+    id: 1,
+    src: `${STORAGE_PATH}/Claresa01.jpg`,
+    alt: "Claresa 1"
+  }, {
+    id: 2,
+    src: `${STORAGE_PATH}/Claresa02.jpg`,
+    alt: "Claresa 2"
+  }, {
+    id: 3,
+    src: `${STORAGE_PATH}/claresa03.jpg`,
+    alt: "Claresa 3"
+  }, {
+    id: 4,
+    src: `${STORAGE_PATH}/claresa04.jpg`,
+    alt: "Claresa 4"
+  }, {
+    id: 5,
+    src: `${STORAGE_PATH}/claresa05.jpg`,
+    alt: "Claresa 5"
+  }, {
+    id: 6,
+    src: `${STORAGE_PATH}/claresa06.jpg`,
+    alt: "Claresa 6"
+  }, {
+    id: 7,
+    src: `${STORAGE_PATH}/claresa07.jpg`,
+    alt: "Claresa 7"
+  }, {
+    id: 8,
+    src: `${STORAGE_PATH}/claresa08.jpg`,
+    alt: "Claresa 8"
   }]
 }, {
   brand: "LE.SONGE",
@@ -200,9 +147,58 @@ const brandSections: BrandSection[] = [{
     alt: "Le Songe 12"
   }]
 }, {
-  brand: "CANDID",
-  logo: `${STORAGE_PATH}/candidlogo.png`,
-  items: []
+  brand: "YOLYN",
+  logo: `${STORAGE_PATH}/logoyolyn.png`,
+  hideText: true,
+  items: [{
+    id: 18,
+    src: `${STORAGE_PATH}/Yolyn09.jpg`,
+    alt: "Yolyn 9"
+  }, {
+    id: 15,
+    src: `${STORAGE_PATH}/Yolyn06.jpg`,
+    alt: "Yolyn 6"
+  }, {
+    id: 16,
+    src: `${STORAGE_PATH}/Yolyn07.jpg`,
+    alt: "Yolyn 7"
+  }, {
+    id: 10,
+    src: `${STORAGE_PATH}/Yolyn01.jpg`,
+    alt: "Yolyn 1"
+  }, {
+    id: 11,
+    src: `${STORAGE_PATH}/Yolyn02.jpg`,
+    alt: "Yolyn 2"
+  }, {
+    id: 12,
+    src: `${STORAGE_PATH}/Yolyn03.jpg`,
+    alt: "Yolyn 3"
+  }, {
+    id: 13,
+    src: `${STORAGE_PATH}/Yolyn04.jpg`,
+    alt: "Yolyn 4"
+  }, {
+    id: 14,
+    src: `${STORAGE_PATH}/Yolyn05.jpg`,
+    alt: "Yolyn 5"
+  }, {
+    id: 17,
+    src: `${STORAGE_PATH}/Yolyn08.jpg`,
+    alt: "Yolyn 8"
+  }]
+}, {
+  brand: "HEGRON",
+  logo: `${STORAGE_PATH}/logohegron.png`,
+  items: [{
+    id: 20,
+    src: `${STORAGE_PATH}/Hegron01.jpg`,
+    alt: "Hegron 1"
+  }, {
+    id: 21,
+    src: `${STORAGE_PATH}/Hegron02.jpg`,
+    alt: "Hegron 2"
+  }]
 }, {
   brand: "WSPÓŁPRACA INFLUENCERSKA",
   logo: undefined,
