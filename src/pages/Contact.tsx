@@ -20,11 +20,7 @@ const Contact = () => {
   };
   return <div className="min-h-screen bg-background">
       <Header />
-      <main className="max-w-6xl mx-auto py-8 animate-fade-in-up px-[2px] pt-0">
-        
-        <p className="text-muted-foreground mb-12 max-w-xl">
-      </p>
-
+      <main className="max-w-6xl mx-auto py-4 animate-fade-in-up px-[2px] pt-0">
         <div className="flex justify-center">
           {/* Info Section */}
           <div className="space-y-6 max-w-xl">
