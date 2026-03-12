@@ -105,17 +105,16 @@ const brandSections: BrandSection[] = [{
   ]
 }, {
   brand: "CANDID",
-  logo: `${STORAGE_PATH}/Candidlogo.png`,
+  logo: `${STORAGE_PATH}/candidlogo.png`,
   hideText: true,
   items: [
-    { id: 300, src: `${STORAGE_PATH}/Candid01.webp`, alt: "Candid 1" },
-    { id: 301, src: `${STORAGE_PATH}/Candid02.webp`, alt: "Candid 2" },
-    { id: 302, src: `${STORAGE_PATH}/Candid03.webp`, alt: "Candid 3" },
-    { id: 303, src: `${STORAGE_PATH}/Candid04.webp`, alt: "Candid 4" },
-    { id: 304, src: `${STORAGE_PATH}/Candid05.webp`, alt: "Candid 5" },
-    { id: 305, src: `${STORAGE_PATH}/Candid06.webp`, alt: "Candid 6" },
-    { id: 306, src: `${STORAGE_PATH}/Candid07.webp`, alt: "Candid 7" },
-    { id: 307, src: `${STORAGE_PATH}/Candid08.webp`, alt: "Candid 8" },
+    { id: 300, src: `${STORAGE_PATH}/Candid1.webp`, alt: "Candid 1" },
+    { id: 301, src: `${STORAGE_PATH}/Candid2.webp`, alt: "Candid 2" },
+    { id: 302, src: `${STORAGE_PATH}/Candid3.webp`, alt: "Candid 3" },
+    { id: 303, src: `${STORAGE_PATH}/Candid4.webp`, alt: "Candid 4" },
+    { id: 304, src: `${STORAGE_PATH}/Candid5.webp`, alt: "Candid 5" },
+    { id: 305, src: `${STORAGE_PATH}/Candid6.webp`, alt: "Candid 6" },
+    { id: 306, src: `${STORAGE_PATH}/Candid7.webp`, alt: "Candid 7" },
   ]
 }, {
   brand: "WSPÓŁPRACA INFLUENCERSKA",
