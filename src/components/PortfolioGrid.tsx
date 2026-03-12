@@ -105,7 +105,7 @@ const brandSections: BrandSection[] = [{
   ]
 }, {
   brand: "CANDID",
-  logo: `${STORAGE_PATH}/candidlogo.png`,
+  logo: `${STORAGE_PATH}/candidlogo.png?v=${Date.now()}`,
   hideText: true,
   items: [
     { id: 300, src: `${STORAGE_PATH}/Candid1.webp`, alt: "Candid 1" },
